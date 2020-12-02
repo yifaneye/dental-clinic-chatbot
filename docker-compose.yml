@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+
+  dentistAPIService:
+    build: dentist
+    ports:
+      - "8083:5001"
+    networks:
+      - myNetwork
+
+  timeslotAPIService:
+    build: timeslot
+    ports:
+      - "8084:5002"
+    networks:
+      - myNetwork
+
+  chatbotAPIService:
+    build: chatbot
+    ports:
+      - "8085:5003"
+    networks:
+      - myNetwork
+
+networks:
+  myNetwork:
+    driver: bridge
