@@ -30,6 +30,61 @@ Go to [http://localhost:5004](http://localhost:5004) to meet the chatbot
 
 ✅
 
+## Usage
+
+Send the chatbot the messages in each of the following scenarios:
+
+Scenario 1:
+```
+hi
+where are you from
+Who are the dentists?
+I want to know more about Dr James
+I want to know more about Dr Smith
+What are the available timeslots for Dr Smith?
+I want to reserve 10am with Dr Smith
+What are the available timeslots for Dr Smith now?
+I want to cancel my appointment with Dr Smith at 10am
+What are the available timeslots for Dr Smith now?
+```
+
+Scenario 2:
+```
+hi
+Which dentists are available?
+Can you tell me more about Dr Green?
+What is the information about Dr Smith?
+Can I know the available timeslots for Dr Green?
+Can you please reserve 12 o'clock for me with Dr Green?
+Can you please reserve 1 o'clock for me with Dr Green?
+I would like to know the available timeslots for Dr Green
+I want to cancel my 1pm reservation with Dr Green
+```
+
+Scenario 3:
+```
+hi
+hi
+hi
+hi bot
+Who is available?
+I want to learn more about Dr Greenwood
+I want to learn more about Dr Green
+I want to reserve with Dr Green at 1pm
+I want to reserve with Dr Green at 4pm
+```
+
+Scenario 4:
+```
+hi
+I want to reserve 8am with Dr James
+I want to reserve 9am with Dr James
+I want to reserve 9am with Dr James
+I want to cancel 8am with Dr James
+I want to cancel 9am with Dr James
+I want to cancel 9am with Dr James
+```
+
 ## Authors
 
 * **Yifan Ai** - *Initial work*
