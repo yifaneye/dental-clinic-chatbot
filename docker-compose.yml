@@ -2,21 +2,21 @@ version: '3'
 
 services:
 
-  dentistAPIService:
+  dentist:
     build: dentist
     ports:
       - "8083:5001"
     networks:
       - myNetwork
 
-  timeslotAPIService:
+  timeslot:
     build: timeslot
     ports:
       - "8084:5002"
     networks:
       - myNetwork
 
-  chatbotAPIService:
+  chatbot:
     build: chatbot
     ports:
       - "8085:5003"
